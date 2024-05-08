@@ -6,7 +6,11 @@ authors = ["Umpire2018 <138990495+Umpire2018@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = ">=3.10,<3.13"
+pyautogen = "^0.2.27"
+llama-index = "^0.10.35"
+llama-index-llms-litellm = "^0.1.4"
+dynaconf = "^3.2.5"
 
 
 [build-system]
