@@ -11,6 +11,7 @@ pyautogen = "^0.2.27"
 llama-index = "^0.10.35"
 llama-index-llms-litellm = "^0.1.4"
 dynaconf = "^3.2.5"
+pre-commit = "^3.7.0"
 
 
 [build-system]
